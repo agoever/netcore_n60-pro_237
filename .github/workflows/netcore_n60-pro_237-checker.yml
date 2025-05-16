@@ -10,11 +10,11 @@
 # See /LICENSE for more information.
 #
 
-name: Update Checker
+name: netcore_n60-pro_237-checker
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-24.10
+  REPO_BRANCH: 2410
 
 on:
   workflow_dispatch:
