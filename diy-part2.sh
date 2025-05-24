@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
 
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
@@ -20,4 +20,12 @@
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
 # 移除USB网络共享
-sed -i 's/kmod-usb-net-rndis //g' target/linux/mediatek/image/mt7986.mk
+# sed -i 's/kmod-usb-net-rndis //g' target/linux/mediatek/image/mt7986.mk
+
+
+git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
+
+# ddnsto 3.0.2
+git clone https://github.com/linkease/nas-packages-luci package/nas-packages-luci
+git clone https://github.com/linkease/nas-packages package/nas-packages
+git clone https://github.com/souwei168/luci-app-store.git package/luci-app-store
