@@ -29,3 +29,8 @@ git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 git clone https://github.com/linkease/nas-packages-luci package/nas-packages-luci
 git clone https://github.com/linkease/nas-packages package/nas-packages
 git clone https://github.com/souwei168/luci-app-store.git package/luci-app-store
+
+#onliner
+git clone https://github.com/kiddin9/kwrt-packages kiddin9_package
+cp -rf kiddin9_package/luci-app-onliner package/luci-app-onliner
+rm -rf kiddin9_package
