@@ -33,6 +33,7 @@ git clone https://github.com/souwei168/luci-app-store.git package/luci-app-store
 #onliner
 git clone https://github.com/kiddin9/kwrt-packages kiddin9_package
 cp -rf kiddin9_package/luci-app-onliner package/luci-app-onliner
+cp -rf kiddin9_package/luci-app-store package/luci-app-store
 cp -rf kiddin9_package/luci-app-wizard package/luci-app-wizard
 rm -rf kiddin9_package
 
