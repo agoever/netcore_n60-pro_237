@@ -34,3 +34,6 @@ git clone https://github.com/souwei168/luci-app-store.git package/luci-app-store
 git clone https://github.com/kiddin9/kwrt-packages kiddin9_package
 cp -rf kiddin9_package/luci-app-onliner package/luci-app-onliner
 rm -rf kiddin9_package
+
+#lucky
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
