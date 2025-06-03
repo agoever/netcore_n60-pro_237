@@ -35,7 +35,17 @@ git clone https://github.com/kiddin9/kwrt-packages kiddin9_package
 cp -rf kiddin9_package/luci-app-onliner package/luci-app-onliner
 cp -rf kiddin9_package/luci-app-store package/luci-app-store
 cp -rf kiddin9_package/luci-app-wizard package/luci-app-wizard
+
+cp -rf kiddin9_package/luci-app-aliyundrive-webdav package/luci-app-aliyundrive-webdav
+cp -rf kiddin9_package/aliyundrive-webdav package/aliyundrive-webdav
+
+cp -rf kiddin9_package/luci-app-easymesh package/luci-app-easymesh
+cp -rf kiddin9_package/luci-app-fileassistant package/luci-app-fileassistant
+cp -rf kiddin9_package/luci-app-timecontrol package/luci-app-timecontrol
+
 rm -rf kiddin9_package
+
+git clone https://github.com/DustReliant/luci-app-filetransfer.git package/luci-app-filetransfer
 
 #lucky
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
