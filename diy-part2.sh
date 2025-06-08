@@ -39,8 +39,8 @@ cp -rf kiddin9_package/luci-app-wizard package/luci-app-wizard
 cp -rf kiddin9_package/luci-app-aliyundrive-webdav package/luci-app-aliyundrive-webdav
 cp -rf kiddin9_package/aliyundrive-webdav package/aliyundrive-webdav
 
-cp -rf kiddin9_package/luci-app-easymesh package/luci-app-easymesh
-cp -rf kiddin9_package/luci-app-fileassistant package/luci-app-fileassistant
+# cp -rf kiddin9_package/luci-app-easymesh package/luci-app-easymesh
+# cp -rf kiddin9_package/luci-app-fileassistant package/luci-app-fileassistant
 cp -rf kiddin9_package/luci-app-timecontrol package/luci-app-timecontrol
 
 rm -rf kiddin9_package
